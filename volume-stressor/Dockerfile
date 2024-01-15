@@ -4,6 +4,7 @@ RUN apt-get update && apt-get install -y stress-ng
 
 ENV HDD=1
 ENV HDD_BYTES=1G
+ENV TEMP_PATH=/data
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh

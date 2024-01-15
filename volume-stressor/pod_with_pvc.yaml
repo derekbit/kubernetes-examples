@@ -25,6 +25,8 @@ spec:
         value: "1"
       - name: HDD_BYTES
         value: "4G"
+      - name: TEMP_PATH
+        value: "/data"
     volumeMounts:
     - name: stress-ng-vol
       mountPath: /data
